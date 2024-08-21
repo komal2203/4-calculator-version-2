@@ -1,0 +1,33 @@
+.calculator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: linear-gradient(
+    83.2deg,
+    rgba(150, 93, 233, 1) 10.8%,
+    rgba(99, 88, 238, 1) 94.3%
+  );
+  border-radius: 15px;
+  width: 50vw;
+  height: min-content;
+  padding: 1.7rem 1rem;
+  box-shadow: rgba(124, 60, 244, 0.84) 0px 1px 1px 0px inset,
+    rgba(55, 55, 185, 0.676) 0px 30px 40px -20px,
+    rgba(139, 23, 228, 0.667) 0px 15px 20px -20px;
+}
+
+.body_box {
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(210, 177, 250) 0%, rgb(148, 196, 245) 90% );
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+@media (min-width:700px) {
+  .calculator{
+    width: 25%;
+    height: min-content;
+  }
+}

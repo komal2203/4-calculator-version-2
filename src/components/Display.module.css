@@ -1,0 +1,11 @@
+.display{
+    align-self: center;
+    margin: 0.5rem 0rem;
+    width: 80%;
+    outline: none;
+    border: none;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: rgb(242, 231, 253);
+}
