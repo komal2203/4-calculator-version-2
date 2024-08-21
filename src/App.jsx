@@ -3,7 +3,7 @@ import Display from "./components/Display";
 import ButtonsContainer from "./components/ButtonsContainer";
 import { useState } from "react";
 function App() {
-  const [calVal, setCalVal] = useState("45");
+  const [calVal, setCalVal] = useState("0");
   const onButtonClick = (buttonText) => {
     if (buttonText === "C") {
       setCalVal("");
